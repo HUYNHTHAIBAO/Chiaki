@@ -25,5 +25,14 @@ body {
   max-width: 1250px;
   margin-left: auto;
   margin-right: auto;
-  padding:0 2rem;
+  padding: 0 2rem;
 }
+
+.swiper-slide {
+  margin-right: 0 !important;
+}
+.selling-product__main .swiper-slide {
+  width: 300px;
+  height: auto;
+}
+

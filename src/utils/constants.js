@@ -4,5 +4,6 @@ export const theme = {
   yellowColor : "#FFF5B6",
   grayColor: "#F1F3F2",
   textPrimary : "#23527C",
-  redColor: "#ff0000"
+  redColor: "#ff0000",
+  orangeColor: "#FF5722"
 };
