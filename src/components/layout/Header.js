@@ -266,10 +266,8 @@ const StyleMainBar = styled.div`
 //     header && header.classList.remove("is-fixed");
 //   }
 // });
-
 const Header = () => {
-  const [show, setShow] = useState(false);
-  console.log(show);
+  //
   const [fix, setFix] = useState(false);
   function setFixed() {
     if (window.scrollY >= 500) {
@@ -280,124 +278,123 @@ const Header = () => {
   }
   window.addEventListener("scroll", setFixed);
 
-  const handleShow = () => {
-    setShow(true);
-    console.log("dáhdkasghd");
-    
-  };
   return (
     <>
-      <StyleHeader className="header">
-        <div className="header-banner">
-          <div className="header-banner__left">
-            <p className="header-banner__left-text">
-              <i class="fa-solid fa-circle header-banner__left-icon"></i>
-              Kệ đựng đũa, dao kéo Hobby Home Decor KDMT3 có khay hứng...: Cao
-              Thị Hằng bình luận "Sản phẩm chắc đẹp, mà mấy cái hộp đựng đũa
-              hơi..."
-            </p>
+        <StyleHeader className="header">
+          <div className="header-banner">
+            <div className="header-banner__left">
+              <p className="header-banner__left-text">
+                <i class="fa-solid fa-circle header-banner__left-icon"></i>
+                Kệ đựng đũa, dao kéo Hobby Home Decor KDMT3 có khay hứng...: Cao
+                Thị Hằng bình luận "Sản phẩm chắc đẹp, mà mấy cái hộp đựng đũa
+                hơi..."
+              </p>
+            </div>
+            <div className="header-banner__right">
+              <ul className="menu-banner__right">
+                <li className="menu-banner__items">
+                  <a href="/#" className="menu-banner__link">
+                    Tải ứng dụng Chiaki
+                  </a>
+                </li>
+                <li className="menu-banner__items">
+                  <a
+                    href="/#"
+                    className="menu-banner__link"
+                    style={{ color: "#FFF5B6" }}
+                  >
+                    Khiếu nại, báo lỗi: 0964.898.762
+                  </a>
+                </li>
+                <li className="menu-banner__items">
+                  <a href="/#" className="menu-banner__link">
+                    Tin tức
+                  </a>
+                </li>
+                <li className="menu-banner__items">
+                  <a href="/#" className="menu-banner__link">
+                    Tra cứu đơn hàng
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div className="header-banner__right">
-            <ul className="menu-banner__right">
-              <li className="menu-banner__items">
-                <a href="/#" className="menu-banner__link">
-                  Tải ứng dụng Chiaki
-                </a>
-              </li>
-              <li className="menu-banner__items">
-                <a
-                  href="/#"
-                  className="menu-banner__link"
-                  style={{ color: "#FFF5B6" }}
-                >
-                  Khiếu nại, báo lỗi: 0964.898.762
-                </a>
-              </li>
-              <li className="menu-banner__items">
-                <a href="/#" className="menu-banner__link">
-                  Tin tức
-                </a>
-              </li>
-              <li className="menu-banner__items">
-                <a href="/#" className="menu-banner__link">
-                  Tra cứu đơn hàng
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className={fix ? "header-content is-fixed" : "header-content"}>
-          <div className="container">
-            <div className="header-content__main">
-              <img
-                src="logo-menu.png"
-                alt=""
-                className="header-content__logo"
-              />
-              <div className="header-content__center">
-                <div className="header-content__form">
-                  <input
-                    type="text"
-                    name=""
-                    id=""
-                    className="header-content__input"
-                    placeholder="Tìm kiếm hàng nghìn Sản Phẩm, Thương hiệu..."
-                  />
-                </div>
-                <a href="/#">
-                  <i class="fa-solid fa-magnifying-glass header-content__button"></i>
-                </a>
-                <p className="header-content__tag">
-                  Son Môi, Healthy Care, Blackmores, Obagi, Collagen
-                </p>
-              </div>
-              <div className="header-content__actions">
-                <div className={show ? "menu-toggle is-active" : "menu-toggle"} onClick={handleShow}   >
-                  <i
-                    class="fa-solid fa-bars menu-toggle"              
-                  ></i>
-                </div>
-                <i class="fa-solid fa-x menu-close"></i>
-                <div class="menu-bg"></div>
-                <div className="header-content__list">
-                  <div className="header-content__items">
-                    <img
-                      src="account.svg"
-                      className="header-items__img"
-                      alt=""
+          <div className={fix ? "header-content is-fixed" : "header-content"}>
+            <div className="container">
+              <div className="header-content__main">
+                <img
+                  src="logo-menu.png"
+                  alt=""
+                  className="header-content__logo"
+                />
+                <div className="header-content__center">
+                  <div className="header-content__form">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      className="header-content__input"
+                      placeholder="Tìm kiếm hàng nghìn Sản Phẩm, Thương hiệu..."
                     />
                   </div>
-                  <div className="header-content__items">
-                    <img src="faq.svg" alt="" className="header-items__img" />
-                  </div>
-                  <div className="header-content__items">
-                    <img
-                      src="phone.svg"
-                      alt=""
-                      className="header-items__img"
-                    />
-                    <div className="header-items__content">
-                      <p className="header-items__text">
-                        Hotline:
-                        <span className="header-items__number">
-                          0982.770.265
-                        </span>
-                      </p>
-                      <p className="header-items__text">
-                        Tổng đài:
-                        <span className="header-items__number">1900 2054</span>
-                      </p>
+                  <a href="/#">
+                    <i class="fa-solid fa-magnifying-glass header-content__button"></i>
+                  </a>
+                  <p className="header-content__tag">
+                    Son Môi, Healthy Care, Blackmores, Obagi, Collagen
+                  </p>
+                </div>
+                <div className="header-content__actions">
+                  <i class="fa-solid fa-bars menu-toggle"></i>
+                  {/* <div className={show ? "menu-toggle is-active" : "menu-toggle"} onClick={handleShow}   >
+                </div> */}
+                  {/* <i class="fa-solid fa-x menu-close"></i> */}
+                  <div class="menu-bg"></div>
+                  <div className="header-content__list">
+                    <div className="header-content__items">
+                      <img
+                        src="account.svg"
+                        className="header-items__img"
+                        alt=""
+                      />
                     </div>
-                  </div>
-                  <div className="header-content__items">
-                    <img src="cart.svg" alt="" className="header-items__img" />
+                    <div className="header-content__items">
+                      <img src="faq.svg" alt="" className="header-items__img" />
+                    </div>
+                    <div className="header-content__items">
+                      <img
+                        src="phone.svg"
+                        alt=""
+                        className="header-items__img"
+                      />
+                      <div className="header-items__content">
+                        <p className="header-items__text">
+                          Hotline:
+                          <span className="header-items__number">
+                            0982.770.265
+                          </span>
+                        </p>
+                        <p className="header-items__text">
+                          Tổng đài:
+                          <span className="header-items__number">
+                            1900 2054
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="header-content__items">
+                      <img
+                        src="cart.svg"
+                        alt=""
+                        className="header-items__img"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </StyleHeader>
+        </StyleHeader>
       <StyleMainBar className="main-bar">
         <div className="container main-bar__main">
           <div className="main-bar__list">

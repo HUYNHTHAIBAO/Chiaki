@@ -103,30 +103,30 @@ const Footer = () => {
               Số 62, Yên Đỗ, Phường 1, Bình Thạnh, TP. Hồ Chí Minh
             </p>
             <img
-              src="/footer-1.svg"
+              src="footer-1.svg"
               alt=""
               style={{ width: "180px", height: "69px" }}
             />
-            <img src="/footer-2.png" alt="" />
+            <img src="footer-2.png" alt="" />
           </div>
           <div className="footer-items">
             <p className="footer-heading">Phương thức thanh toán </p>
             <div className="footer-pay">
-              <img src="/visa.svg" alt="" className="footer-pay__img" />
-              <img src="/mastercard.svg" alt="" className="footer-pay__img" />
-              <img src="/jcb.svg" alt="" className="footer-pay__img" />
-              <img src="/cash.svg" alt="" className="footer-pay__img" />
+              <img src="visa.svg" alt="" className="footer-pay__img" />
+              <img src="mastercard.svg" alt="" className="footer-pay__img" />
+              <img src="jcb.svg" alt="" className="footer-pay__img" />
+              <img src="cash.svg" alt="" className="footer-pay__img" />
               <img
-                src="/internet-banking.svg"
+                src="internet-banking.svg"
                 alt=""
                 className="footer-pay__img"
               />
             </div>
             <p className="footer-heading"> Tải ứng dụng điện thoại </p>
             <div className="footer-download">
-              <img src="/ch-play.png" alt="" className="footer-download__img" />
+              <img src="ch-play.png" alt="" className="footer-download__img" />
               <img
-                src="/apple-store.png"
+                src="apple-store.png"
                 alt=""
                 className="footer-download__img"
               />
@@ -135,10 +135,10 @@ const Footer = () => {
               Kết nối với chúng tôi
             </p>
             <div className="footer-social">
-              <img src="/facebook.png" alt="" className="footer-social__img" />
-              <img src="/twitter.png" alt="" className="footer-social__img" />
-              <img src="/pinterest.png" alt="" className="footer-social__img" />
-              <img src="/youtube.png" alt="" className="footer-social__img" />
+              <img src="facebook.png" alt="" className="footer-social__img" />
+              <img src="twitter.png" alt="" className="footer-social__img" />
+              <img src="pinterest.png" alt="" className="footer-social__img" />
+              <img src="youtube.png" alt="" className="footer-social__img" />
             </div>
           </div>
           <div className="footer-items">
