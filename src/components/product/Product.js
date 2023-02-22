@@ -83,7 +83,7 @@ const Product = () => {
     <StyleProduct>
       <div className="product-list">
         <div className="product-items">
-          <img src="/product.jpg" alt="" />
+          <img src="product.jpg" alt="" />
           <div className="product-sale">
             <span className="product-sale__text">-12%</span>
           </div>

@@ -97,35 +97,35 @@ const News = () => {
             <Button>Câu hỏi thường gặp</Button>
             <div className="new-right__list">
               <div className="new-right__items">
-                <img src="/oto.png" alt="" />
+                <img src="oto.png" alt="" />
                 <p className="new-right__text">Khi nào tôi nhận được hàng ?</p>
               </div>
               <div className="new-right__items">
-                <img src="/oto.png" alt="" />
+                <img src="oto.png" alt="" />
                 <p className="new-right__text">Khi nào tôi nhận được hàng ?</p>
               </div>
               <div className="new-right__items">
-                <img src="/oto.png" alt="" />
+                <img src="oto.png" alt="" />
                 <p className="new-right__text">Khi nào tôi nhận được hàng ?</p>
               </div>
               <div className="new-right__items">
-                <img src="/oto.png" alt="" />
+                <img src="oto.png" alt="" />
                 <p className="new-right__text">Khi nào tôi nhận được hàng ?</p>
               </div>
               <div className="new-right__items">
-                <img src="/oto.png" alt="" />
+                <img src="oto.png" alt="" />
                 <p className="new-right__text">Khi nào tôi nhận được hàng ?</p>
               </div>
               <div className="new-right__items">
-                <img src="/oto.png" alt="" />
+                <img src="oto.png" alt="" />
                 <p className="new-right__text">Khi nào tôi nhận được hàng ?</p>
               </div>
               <div className="new-right__items">
-                <img src="/oto.png" alt="" />
+                <img src="oto.png" alt="" />
                 <p className="new-right__text">Khi nào tôi nhận được hàng ?</p>
               </div>
               <div className="new-right__items">
-                <img src="/oto.png" alt="" />
+                <img src="oto.png" alt="" />
                 <p className="new-right__text">Khi nào tôi nhận được hàng ?</p>
               </div>
             </div>

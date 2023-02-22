@@ -261,7 +261,7 @@ const Banner = () => {
             <div className="banner-list">
               <div className="banner-large">
                 <img
-                  src="/banner-large-3.jpg"
+                  src="banner-large-3.jpg"
                   alt=""
                   style={{ minHeight: "450px" }}
                 />

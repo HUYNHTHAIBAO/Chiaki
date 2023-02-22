@@ -330,7 +330,7 @@ const Header = () => {
           <div className="container">
             <div className="header-content__main">
               <img
-                src="/logo-menu.png"
+                src="logo-menu.png"
                 alt=""
                 className="header-content__logo"
               />
@@ -362,17 +362,17 @@ const Header = () => {
                 <div className="header-content__list">
                   <div className="header-content__items">
                     <img
-                      src="/account.svg"
+                      src="account.svg"
                       className="header-items__img"
                       alt=""
                     />
                   </div>
                   <div className="header-content__items">
-                    <img src="/faq.svg" alt="" className="header-items__img" />
+                    <img src="faq.svg" alt="" className="header-items__img" />
                   </div>
                   <div className="header-content__items">
                     <img
-                      src="/phone.svg"
+                      src="phone.svg"
                       alt=""
                       className="header-items__img"
                     />
@@ -390,7 +390,7 @@ const Header = () => {
                     </div>
                   </div>
                   <div className="header-content__items">
-                    <img src="/cart.svg" alt="" className="header-items__img" />
+                    <img src="cart.svg" alt="" className="header-items__img" />
                   </div>
                 </div>
               </div>

@@ -50,7 +50,7 @@ const NewItems = () => {
     return (
         <StyleNewItems>
             <div className="news-items__list">
-                <img src="/news.png" alt="" className='news-items__img'/>
+                <img src="news.png" alt="" className='news-items__img'/>
                 <div className="news-items__content">
                     <p className="news-items__title">
                     Top 20 kiểu tóc mái bay nữ Hàn Quốc xinh nhất được ưa chuộng 2023

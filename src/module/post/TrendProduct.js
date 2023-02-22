@@ -88,7 +88,7 @@ const TrendProduct = () => {
               <p className="trend-header__text">1k+ sản phẩm</p>
             </div>
             <img
-              src="/trendProduct-1.png"
+              src="trendProduct-1.png"
               alt=""
               className="trend-header__img"
             />
@@ -99,7 +99,7 @@ const TrendProduct = () => {
               <p className="trend-header__text">150+ sản phẩm</p>
             </div>
             <img
-              src="/trendProduct-2.png"
+              src="trendProduct-2.png"
               alt=""
               className="trend-header__img"
             />
@@ -110,7 +110,7 @@ const TrendProduct = () => {
               <p className="trend-header__text">250+ sản phẩm</p>
             </div>
             <img
-              src="/trendProduct-3.png"
+              src="trendProduct-3.png"
               alt=""
               className="trend-header__img"
             />
@@ -121,7 +121,7 @@ const TrendProduct = () => {
               <p className="trend-header__text">1k+ sản phẩm</p>
             </div>
             <img
-              src="/trendProduct-4.png"
+              src="trendProduct-4.png"
               alt=""
               className="trend-header__img"
             />
@@ -132,7 +132,7 @@ const TrendProduct = () => {
               <p className="trend-header__text">9+ sản phẩm</p>
             </div>
             <img
-              src="/trendProduct-5.png"
+              src="trendProduct-5.png"
               alt=""
               className="trend-header__img"
             />
@@ -143,7 +143,7 @@ const TrendProduct = () => {
               <p className="trend-header__text">Chính Hãng Mỹ</p>
             </div>
             <img
-              src="/trendProduct-6.png"
+              src="trendProduct-6.png"
               alt=""
               className="trend-header__img"
             />
